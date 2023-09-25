@@ -1,5 +1,5 @@
 #E-Stick  
-## Language selection:  
+## 語言選擇：
 [English]() | [简体中文]() | [繁體中文]()
   
 ## 概述  
