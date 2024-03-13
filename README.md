@@ -1,4 +1,4 @@
-# E-Stick    
+# E-Stick-V2  
 ## Language Selection:
 [English](https://github.com/Knockoi/E-Stick/blob/main/README.md) | [日本語](https://github.com/Knockoi/E-Stick/blob/main/ReadmeCN.md) | [繁體中文](https://github.com/Knockoi/E-Stick-V1/blob/main/ReadmeTC.md)  
 ## Overview  
