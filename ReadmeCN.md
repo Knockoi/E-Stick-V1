@@ -1,6 +1,6 @@
-# Eスティック    
+# E-スティック    
 ## 言語選択
-[英語](https://github.com/Knockoi/E-Stick/blob/main/README.md) | [日本語](https://github.com/Knockoi/E-Stick-V1/edit/main/ReadmeCN.md) | [繁體中文](https://github.com/Knockoi/E-Stick-V1/blob/main/ReadmeTC.md)  
+[English](https://github.com/Knockoi/E-Stick/blob/main/README.md) | [日本語](https://github.com/Knockoi/E-Stick-V1/edit/main/ReadmeCN.md) | [繁體中文](https://github.com/Knockoi/E-Stick-V1/blob/main/ReadmeTC.md)  
 ## 概要  
 この誕生日プレゼントは、小学校の先生のために特別に設計されたもので、プロジェクターの実用性を最大限に引き出すためのものです。ワイヤレスマウス機能が付いているので、パソコンに戻らずに簡単にプロジェクターを操作できます。
 また、レーザー機能も付いているので、重要な内容に簡単にラベルを貼ることができます。さらに利便性を高めるために、体性感覚の動きでマウスを動かせるジャイロスコープ機能を追加し、マウスの位置をより正確にするための方向ボタンも追加しました。
