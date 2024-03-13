@@ -1,34 +1,33 @@
-# Eスティック    
-## 言語選択
-[英語](https://github.com/Knockoi/E-Stick/blob/main/README.md) | [日本語](https://github.com/Knockoi/E-Stick-V1/edit/main/README.md) | [繁體中文](https://github.com/Knockoi/E-Stick/blob/main/ReadmeTC.md)  
-## 概要  
-この誕生日プレゼントは、小学校の先生のために特別に設計されたもので、プロジェクターの実用性を最大限に引き出すためのものです。ワイヤレスマウス機能が付いているので、パソコンに戻らずに簡単にプロジェクターを操作できます。
-また、レーザー機能も付いているので、重要な内容に簡単にラベルを貼ることができます。さらに利便性を高めるために、体性感覚の動きでマウスを動かせるジャイロスコープ機能を追加し、マウスの位置をより正確にするための方向ボタンも追加しました。
-さらに良い体験のために、ジャイロスコープはApple Pencilのような機能も可能にし、E-Stickで投影スクリーンに絵を描いたり、文字を書いたりできるようにしました。現在、E-Stickはこれらの機能を備えており、他の機能も開発中である。
+# E-Stick    
+## Language Selection:
+[English](https://github.com/Knockoi/E-Stick/blob/main/README.md) | [简体中文](https://github.com/Knockoi/E-Stick/blob/main/ReadmeCN.md) | [繁體中文](https://github.com/Knockoi/E-Stick/blob/main/ReadmeTC.md)  
+## Overview  
+This birthday gift was specially designed for my elementary school teacher to maximize the utility of the projector. It has a wireless mouse function, so I can control the projector easily without going back to my computer.
+It also has a laser function for easy labeling of important content. For added convenience, we added a gyroscope function that allows me to move the mouse via somatosensory movement, and added directional buttons for more precise positioning of the mouse.
+For an even better experience, the gyroscope also enables Apple Pencil-like functionality, allowing the E-Stick to draw or write on the projection screen. Currently, the E-Stick has these features and others are being developed.
   ![image](https://github.com/Knockoi/E-Stick/blob/main/Image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202023-09-16%20235403.png)
   
-## ハードウェア  
-- MCUは小型スペースモジュール版のESP32-C3-MINI-1を使用。
-- ジャイロスコープには、2つのSDAとSCKを備えたMPU6500データケーブルを使用。
-- IP5305高集積モバイル給電ICを使用した電源管理。
-- 現在のモードとシステム情報用のRGBディスプレイ。 
+## Hardware  
+- The MCU uses ESP32-C3-MINI-1 for the small space module version.
+- The gyroscope uses the MPU6500 data cable with two SDAs and SCKs.
+- Power management using IP5305 highly integrated mobile power charging IC.
+- RGB display for current mode and system information.  
 
-## 機能  
-- 電子ペン： プロジェクターに接続することなく、コンピューターに接続してプロジェクション・スクリーンに描画可能。
-- レーザーポインター： E-Stickの上部にレーザーポインターがあり、重要な部分に印をつけることができます。
-- ページの切り替え： カスタマイズ可能な左右のボタンでページをめくることができます。
-- マウス機能： ジョイスティックと物理センサーを使用して、左右ボタンのマウス位置を操作できます。
-- モーションコントロール： 物理的な揺れでマウスの位置を動かします。
-- カスタマイズキー： Bluetoothでスマホやパソコンと接続し、E-Stickのキー機能を変更できます。
+## Functions  
+- Electronic Pen: Can be connected to a computer to draw on the projection screen without connecting to the projector.
+- Laser Pointer: E-Stick has a laser pointer on the top to mark key areas.
+- Switching Pages: Use the customizable buttons on the left and right buttons to turn pages.
+- Mouse Function: The mouse position of the left and right buttons can be manipulated by using the joystick and the physical sensors.
+- Motion Control: Physical shaking is used to move the mouse position.
+- Customize Keys: Use Bluetooth to connect to your phone or computer to change the E-Stick's key functions.
   
-## キー機能  
-- 左ボタン マウスの左ボタンと同じ機能で、モードボタンでカスタマイズできます。
-- 右ボタン マウスの右ボタンと同じ機能で、モードボタンでカスタマイズできます。
-- ジョイスティック：4 方向と中央ボタン。中央ボタンのみカスタマイズ可能。デフォルトは長押しでレーザーをオンにする。
-- MODE キーはモードを変えることができます。5秒以上長押しするとBluetooth接続が有効になります。
-- BOOT ボタン ダウンロードボタン。Bootを長押ししてからResetを押すと、ファームウェアダウンロードモードが有効になり、シリアルポートからファームウェアをダウンロードできます。
-- RESETボタン このボタンを押してシステムを再起動します。
-- オン/オフボタン ボタンを押している時間が30ms以上2s未満の場合、システムをオンにします。1秒以内に2回連続で押すとOFFと認識されます。
+## Key Functions  
+- Left: Same function as left mouse button, can be customized by using mode button.
+- Right button Same function as right mouse button, can be customized with mode button.
+- Joystick: 4 directions and the center button. Only the center button can be customized. The default is to press and hold to turn on the laser.
+- MODE key can change the mode. Press and hold >= 5 seconds to enable Bluetooth connection.
+- BOOT button Download button. Press and hold Boot, then press Reset to activate the firmware download mode to download the firmware through the serial port.
+- RESET button Press this button to reboot the system.
+- On/Off Button Press the button to turn on the system if the duration of the button is longer than 30ms but less than 2s. Pressing the button twice in a row within 1s is recognized as OFF.
     
-基本的なボタンはESP32-C3-DevKitM-1に記載されています。
-
+The basic buttons can be found in the ESP32-C3-DevKitM-1.
